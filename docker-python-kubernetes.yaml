@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: technox64/python-docker-dev-example-test:latest
+          image: kiwoon2799/assingment-7-part-2:latest
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
